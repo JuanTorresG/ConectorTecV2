@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Inder&family=Manrope&display=swap');
+
+:root {
+    --primary: #479f75; /* Primary color */
+    --secondary: #2d3142; /* Secondary color */
+    --accent: #e7ecef; /* Accent color */
+    --light: #f8f9fa; /* Light background color */
+    --medium: #bfc0c0; /* Medium color */
+}
+
+body {
+    background-color: var(--light); /* Light background for better readability */
+    color: var(--secondary); /* Secondary color for general text for better contrast */
+    font-family: 'Manrope', sans-serif; /* Using Inter as the primary font across the HTML document */
+}
+
+
+.font-heading {
+    font-family: 'Federo', sans-serif;
+}
+
+.font-subheading {
+    font-family: 'Inder', sans-serif;
+}
+
+.font-body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--secondary);
+}
+
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.border-medium, .hover:bg-medium:hover {
+    border-color: var(--medium);
+    background-color: var(--medium);
+}
+
+
+.text-primary {
+    color: var(--primary);
+}
+
+/* Ensure hover styles are consistent with the theme */
+.hover:bg-medium:hover {
+    background-color: var(--medium);
+}
